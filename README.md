@@ -25,6 +25,7 @@ The exam topics are broad. Instead of reading notes, this repo creates **evidenc
 
 ## Repository Structure
 
+```text
 llm-foundations-and-systems/
 ├── 00_env/
 │ ├── README.md
@@ -53,7 +54,7 @@ llm-foundations-and-systems/
 ├── pyproject.toml
 ├── uv.lock
 └── README.md
-
+```
 
 
 ---
