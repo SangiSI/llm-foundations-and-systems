@@ -1,0 +1,20 @@
+[project]
+name = "llm-foundations-and-systems"
+version = "0.1.0"
+description = "LLM foundations, fine-tuning, optimization, deployment, and evaluation study repo"
+requires-python = ">=3.10,<3.11"
+
+dependencies = [
+    "numpy<2",
+    "pyarrow<12",
+    "datasets<2.19",
+    "evaluate",
+    "transformers",
+    "torch",
+    "notebook",
+    "ipykernel",
+]
+
+[tool.uv]
+python = "3.10"
+
